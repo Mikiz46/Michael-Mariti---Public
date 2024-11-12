@@ -1,0 +1,73 @@
+/* selettori{
+    proprietà: valore;
+} */
+
+body {
+    background-image: url('img/background.jpg');
+    background-size: 100%;
+    width: auto;
+    height: auto;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    color: white;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.361);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+
+.logo {
+    width: 300px;
+}
+
+.title {
+    text-align: center;
+    color: #00DD00;
+}
+
+.navcontainer {
+    width: 1000px;
+    margin: auto;
+    background-color: #00DD00;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.row-left, .row-right{
+    display: inline-block;
+}
+
+.block1 {
+    width: 400px;
+    background-color: orange;
+}
+
+.block2 {
+    width: 700px;
+    background-color: #00DD00;
+}
+
+.block3 {
+    width: 150px;
+    background-color: red;
+}
+
+.block1, .block2, .block3 {
+    border-radius: 5px;
+}
+
+
+h1, h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
